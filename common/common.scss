@@ -50,7 +50,8 @@ div.ac-wrap {
   border-radius: 0.25rem;
 
   &:hover {
-    border-color: var(--tertiary);
+    //border-color: var(--tertiary);
+    border-color: #D93135;
   }
 }
 
@@ -86,7 +87,8 @@ div.ac-wrap {
   
       &:hover {
         background-color: transparent;
-        color: var(--tertiary);
+        color: #D93135;
+        //color: var(--tertiary);
       }
 
       &:focus {
@@ -95,11 +97,13 @@ div.ac-wrap {
     }
   
     .active {
-      border-bottom: 2px solid var(--tertiary);
+      //border-bottom: 2px solid var(--tertiary);
+      border-bottom: 2px solid #D93135;
       
       .active {
         background-color: transparent;
-        color: var(--tertiary);
+        //color: var(--tertiary);
+        color: #D93135;
       }
     }
   }
@@ -111,6 +115,7 @@ div.ac-wrap {
     margin-left: auto;
 
     .btn {
+      //background-color: #D93135;
       background-color: var(--tertiary);
       color: var(--secondary);
       border-radius: 2rem;
@@ -118,7 +123,8 @@ div.ac-wrap {
       padding-left: 1rem;
 
       &:hover {
-        color: var(--tertiary-low);
+        //color: var(--tertiary-low);
+        color: #D93135;
       }
 
       .d-icon {
@@ -136,7 +142,8 @@ div.ac-wrap {
       border-color: var(--primary-very-low);
 
       &:hover {
-        border-color: var(--tertiary);
+        //border-color: var(--tertiary);
+        border-color: #D93135;
       }
     }
   }
@@ -220,7 +227,8 @@ div.ac-wrap {
 .topic-list-main-link a.title,
 .topic-list .main-link a.title,
 .latest-topic-list-item .main-link a.title {
-  color: var(--tertiary);
+  //color: var(--tertiary);
+  color: #D93135;
 }
 
 .topic-list-item.visited .topic-list-data a.title:not(.badge-notification),
@@ -244,7 +252,8 @@ div.ac-wrap {
     border-top: none;
 
     .category {
-      border: 1px solid var(--tertiary);
+      //border: 1px solid var(--tertiary);
+      border: 1px solid #D93135;
       border-radius: 0.25rem;
     }
 
@@ -454,7 +463,8 @@ nav.post-controls .actions {
 
   &:hover,
   &:focus {
-    color: var(--tertiary);
+    //color: var(--tertiary);
+    color: #D93135;
     background-color: transparent;
   }
 }
@@ -498,7 +508,8 @@ nav.post-controls .actions {
         background-color: var(--primary-high);
         
         &:hover {
-          color: var(--tertiary-low)
+          //color: var(--tertiary-low)
+          color: #D93135
         }
       }
     }
@@ -517,13 +528,15 @@ nav.post-controls .actions {
     font-size: var(--font-down-1);
 
     a:hover {
-      color: var(--tertiary);
+      //color: var(--tertiary);
+      color: #D93135;
       background-color: transparent;
     }
 
     > li a.active {
       background-color: transparent;
-      color: var(--tertiary);
+      //color: var(--tertiary);
+      color: #D93135;
       font-weight: 700;
     }
   }
