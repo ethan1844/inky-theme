@@ -32,6 +32,6 @@
     }
   },
   "components": [
-    "https://github.com/discourse/discourse-search-banner.git"
+    "https://github.com/ethan1844/discourse-search-banner.git"
   ]
 }
